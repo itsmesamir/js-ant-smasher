@@ -1,6 +1,6 @@
 const canvas = document.querySelector('canvas');
 canvas.width = innerWidth - 45;
-canvas.height = innerHeight - 75;
+canvas.height = innerHeight - 85;
 const ctx = canvas.getContext('2d');
 
 const scoreDiv = document.getElementById('score-count');
