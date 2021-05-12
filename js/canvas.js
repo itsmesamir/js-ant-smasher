@@ -85,7 +85,7 @@ canvas.addEventListener('click', (e) => {
     let x = e.clientX;
     let y = e.clientY;
     ants.forEach(function(ant, index) {
-        if ((x > ant.x) && (x <= ant.x + (ant.radius * 2)) && (y >= ant.y) && (y <= ant.y + (ant.radius * 2))) {
+        if ((x > ant.x) && (x <= ant.x + (ant.radius * 1.3)) && (y >= ant.y) && (y <= ant.y + (ant.radius * 2))) {
 
             ants.splice(index, 1);
             index = undefined;
